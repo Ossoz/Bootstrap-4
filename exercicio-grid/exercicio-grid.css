@@ -1,0 +1,29 @@
+header,
+.noticias {
+    padding: 1em;
+}
+
+.menu-wrap {
+    background-color: lightblue;
+}
+
+.menu-items {
+    font-family: helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+.item-menu {
+    padding: 1rem;
+}
+
+.noticias {
+    height: 50vh;
+}
+
+.noticia {
+    background-color: skyblue;
+    margin: .5em;
+}
+
+
