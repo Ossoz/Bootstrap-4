@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap4",
+  "version": "1.0.0",
+  "description": "primeiro projeto de bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ossoz/Bootstrap-4.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "flex-box",
+    "css"
+  ],
+  "author": "Ossoz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ossoz/Bootstrap-4/issues"
+  },
+  "homepage": "https://github.com/Ossoz/Bootstrap-4#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2"
+  }
+}
