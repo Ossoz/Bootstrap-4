@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Base</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <style>
+        article {
+            padding: 2rem;
+        }
+        article:first-child {
+            background-color: salmon;
+        }
+        article:last-child {
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+
+    
+    <!-- NESTING é como usar tabelas dentro de tabelas.  -->
+    <div class="container">
+        <header>
+            <div class="row">
+
+                <div class="col">
+                    <h1>LOGO</h1>
+                </div>
+
+                <div class="col">
+                    MENU
+                </div>
+
+                <section>
+
+                    <div class="row">
+
+                        <article class="col">
+
+                            <div class="row">
+
+                                <div class="col">
+                                    <h3>Titulo 1</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                </div>
+
+                                <div class="col">
+                                    <div class="col">
+                                        <h3>Titulo 2</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                </div>
+                            </div>
+
+                        </article>
+
+                        <article class="col">
+
+                            <div class="row">
+                                <div class="col">
+                                        <h3>Titulo 3</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col">
+                                        <h3>Titulo 4</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                </div>
+                                
+                        </article>
+                    </div>
+                </section>
+
+            </div>
+        </header>
+    </div>
+    
+</body>
+</html>
