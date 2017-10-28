@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Card</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Inicio da Container -->
+    <div class="container">
+
+        <!-- ROW -->
+        <div class="row">
+            <!-- COL -->
+            <div class="col-4">
+
+                <!-- Tudo o que ficar dentro do CARD será padrão COLUMN. Por isso ele está dentro de uma ROW -->
+                <div class="card">
+
+                    <!-- A imagem, por estar com as classes de card, ela se adequa ao col-4 (que é o tamanho onde o card está inserido) -->
+                    <img src="http://placehold.it/800x200" class="card-img-top">
+
+                    <div class="card-body">
+                        <h4 class="card-title">Titulo do Card</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus accusantium sit nihil
+                        error officia aut ratione nostrum animi rerum numquam!</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">Card Title</div>
+                        <div class="card-subtitle text-muted">Subtitle</div>
+                        <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis voluptatum animi id sit eligendi, hic dolorum voluptas! Magni, iure vero.
+                        </p>
+                        <a href="" class="card-link">Link</a>
+                        <a href="" class="card-link">Outro Link</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- FIM DA ROW -->
+
+        <!-- Inicio da ROW -->
+        <div class="row">
+
+            <div class="col-12"><h2>Lists Groups</h2></div>
+
+            <!-- Listas dentro de Cards -->
+            <div class="col-4">
+                <div class="card">
+
+                    <!-- Cabeçalho do Card. Pode ser um H$ ou uma DIV -->
+                    <h4 class="card-header">
+                        Cabeçalho do Card
+                    </h4>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">User Name: @osso</li>
+                        <li class="list-group-item">User name: @isabel</li>
+                        <li class="list-group-item">User Name: @amanda</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- FIM DA ROW -->
+
+        <!-- Card com Footer -->
+        <div class="card text-center">
+            <div class="card-header">
+                Post Blog
+            </div>
+
+            <div class="card-body">
+                <h4 class="card-title">Aprenda Bootstrap</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, totam.</p>
+                <a href="" class="btn btn-primary">Saiba Mais</a>
+            </div>
+
+            <div class="card-footer">
+                Postado há 2 horas
+            </div>
+        </div>
+        <!-- Fim do Card com FOOTER -->
+
+        <div class="row">
+            <div class="col-4">
+
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Aprenda Bootstrap</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, totam.</p>
+                        <a href="" class="btn btn-primary">Saiba Mais</a>
+                    </div>
+                </div>
+
+                <img src="http://placehold.it/500x350" class="card-img-bottom">
+            </div>
+        </div>
+
+
+    </div>
+    <!-- Fim da Container -->
+    
+</body>
+</html>
