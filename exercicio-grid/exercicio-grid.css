@@ -27,3 +27,12 @@ header {
     background-color: tomato;
     padding: 1.5em;
 }
+
+footer {
+    background-color: lightblue;
+    height: 5vh;
+}
+
+.footer {
+    margin: 1em;
+}
