@@ -1,5 +1,4 @@
-header,
-.noticias {
+header {
     padding: 1em;
 }
 
@@ -17,13 +16,14 @@ header,
     padding: 1rem;
 }
 
-.noticias {
+.noticia {
+    background-color: skyblue;
+    margin: .7em;
     height: 50vh;
 }
 
-.noticia {
-    background-color: skyblue;
-    margin: .5em;
+.chamada-louca {
+    height: 10vh;
+    background-color: tomato;
+    padding: 1.5em;
 }
-
-
