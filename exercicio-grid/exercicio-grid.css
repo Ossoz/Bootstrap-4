@@ -18,21 +18,10 @@ header {
 
 .noticia {
     background-color: skyblue;
-    margin: .7em;
-    height: 50vh;
+    height: 40vh;
 }
 
-.chamada-louca {
-    height: 10vh;
+.chamada {
     background-color: tomato;
-    padding: 1.5em;
-}
-
-footer {
-    background-color: lightblue;
-    height: 5vh;
-}
-
-.footer {
-    margin: 1em;
+    height: 10vh;
 }
